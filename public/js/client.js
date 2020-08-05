@@ -22,7 +22,7 @@ let append = (name) => {
 let leftUser = (name) => {
   let mainDiv = document.createElement("div");
   mainDiv.classList.add("left");
-  let userName = `<h4>${name} Leave Chat</h4>`;
+  let userName = `<h4>${name} Left The Chat</h4>`;
   mainDiv.innerHTML = userName;
   messageArea.appendChild(mainDiv);
 };
