@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How's You</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="container-fluid" style="background-color: #DEE9F2;">
+        <div style="height: 20px;"></div>
+      <div class="col-sm-3"></div>
+      <div class="col-sm-6 container-area" >
+        <div class="brand text-center">
+            <img src="chatlogo.png" height="50px" alt="" />
+          </div>
+          <div class="message_area">
+              <div style="height: 17px;" ></div>
+       
+           
+        
+    </div>
+        <div class="msgarea">
+          <textarea  id="inputMsg" rows="2"  class="msginput" autofocus ></textarea>
+          <button class="btn" id="sendBtn"><i class="fa fa-paper-plane"></i></button>
+        </div>
+      </div>
+      <div class="col-sm-3"></div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/client.js"></script>
+    <script src="/js/custom.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+   
+  </body>
+</html>

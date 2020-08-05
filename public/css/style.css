@@ -1,0 +1,94 @@
+.container-area {
+  background-image: url("/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.message_area {
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.message {
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  max-width: 200px;
+  position: relative;
+}
+
+.incoming {
+  margin-top: 20px;
+  background: #6eb5ee;
+  color: #f5f8fb;
+}
+
+.message h4 {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  right: 0;
+}
+
+.outgoing {
+  background: #e9eafd;
+  color: black;
+  margin-left: auto;
+}
+.outgoing h4 {
+  color: #e9eafd;
+  left: 0;
+  right: 0;
+}
+
+/* .msginput {
+  position: absolute;
+  width: 75%;
+  bottom: 10px;
+  border-radius: 50px;
+  outline: none;
+}
+.btn {
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+  display: flex;
+  bottom: 10px;
+  border-radius: 50px;
+} */
+
+.msgarea {
+  width: 100%;
+  height: 80px;
+  border: none;
+  padding: 0px;
+  outline: none;
+  display: flex;
+}
+.msgarea .msginput {
+  position: absolute;
+  width: 70%;
+  height: 45px;
+  bottom: 10px;
+  border-radius: 10px;
+  outline: none;
+}
+.msgarea .btn {
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+  font-size: 25px;
+  bottom: 7px;
+  border-radius: 50px;
+}
+.joined{
+    background-color: green;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
